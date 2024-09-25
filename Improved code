@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    // declare variables to hold Celsius, Fahrenheit, and the conversion count
+    float celsius, fahrenheit;
+    int count = 0;
+    char choice;
+
+    // loop to continue converting temperatures until the user decides to quit
+    do {
+        // the user to enter the temperature in Celsius
+        printf("Enter the temperature in Celsius: ");
+        scanf("%f", &celsius);
+
+        // convert the Celsius temperature to Fahrenheit
+        fahrenheit = (celsius * 9/5) + 32;
+
+        // Display the result
+        printf("The temperature in Fahrenheit is: %.2f\n", fahrenheit);
+
+        // increment the conversion count
+        count++;
+
+        // ask the user if they want to convert another temperature
+        printf("Do you want to convert another temperature? (y/n): ");
+        scanf(" %c", &choice);
+
+    } while(choice == 'y' || choice == 'Y');
+
+    // display the total number of conversions performed
+    printf("You converted %d temperatures.\n", count);
+
+    return 0;
+}
