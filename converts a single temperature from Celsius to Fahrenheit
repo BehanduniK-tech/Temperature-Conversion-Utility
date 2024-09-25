@@ -1,0 +1,15 @@
+A simple program to allow users to insert the temperature in Celsius to convert to Fahrenheit. The program should use loops to process the input and continue running until the user choses to quit.
+
+- A program that converts temperatures between Celsius and
+Fahrenheit. The user will be able to input multiple temperatures and choose the conversion
+direction. The program should use loops to process the input and continue running until the
+user chooses to quit.
+
+- A program that converts a single temperature from Celsius to Fahrenheit.
+• Prompt the user to input a temperature in Celsius.
+• Convert the temperature to Fahrenheit using the formula: F = C * 9/5 + 32.
+• Display the converted temperature.
+• You need to provide screenshots of your code and the different outcomes it can
+provide.
+• Appropriate headings must be used in portfolio to ensure that this task can easily be
+identified alongside the rest of your work.
