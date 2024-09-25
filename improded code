@@ -1,0 +1,13 @@
+Improving the previous code by adding a loop that allows the user to convert multiple temperatures until they choose to quit. Additionally, the program should keep track of the number of conversions performed and display this count when the user decides to quit.
+
+• Enhance your program by adding a loop that allows the user to convert multiple
+temperatures until they choose to quit.
+• After each conversion, ask the user if they want to convert another temperature. If they
+choose to continue, repeat the process with a new input. If they choose to quit, end the
+program.
+• Keep track of the number of conversions performed.
+• Display the final count when the user decides to quit (e.g., "You converted X
+temperatures.").
+• You need to provide screenshots of your code and the different outcomes it can give.
+• Your Word document should have appropriate headings to ensure that this task can easily
+be identified alongside the rest of your work. 
